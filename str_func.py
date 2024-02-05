@@ -9,3 +9,19 @@ def to_upper(string):
         строку со всеми заглавными буквами.
     """
     return string.upper()
+
+
+
+def capitalize_words(string):
+    """
+    Возвращает строку с заглавными первыми буквами каждого слова.
+
+    Args:
+        string: строка
+
+    Returns:
+        строку с заглавными первыми буквами каждого слова
+    """
+    words = string.split()
+    capitalized_words = [word.capitalize() for word in words]
+    return ' '.join(capitalized_words)
