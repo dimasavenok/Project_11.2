@@ -6,8 +6,7 @@ def to_upper(string):
         string: строка
 
     Returns:
-        строку
-    """
+
     return string.upper()
 
 
