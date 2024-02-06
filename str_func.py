@@ -7,7 +7,6 @@ def to_upper(string):
 
     Returns:
 
-    
     return string.upper()
 
 
