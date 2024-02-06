@@ -6,7 +6,7 @@ def to_upper(string):
         string: строка
 
     Returns:
-        строку со всеми заглавными буквами..
+пдшолппл
     """
     return string.upper()
 
